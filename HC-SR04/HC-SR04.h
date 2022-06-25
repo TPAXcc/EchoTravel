@@ -1,27 +1,26 @@
-//2022.6.25 P.M.1.27 Ver.1.1.1-Beta 重构版本 / Refactoring Release
+//2022.6.25 12:12 Ver.0.1.0-alpha 初始版本 / Initial Release
 //TPAXcc Form github.com/TPAXcc/Arduino-Ultrasonic
-//修复了无法运行的 BUG / Fixed BUG to not run
 
-#ifndef HC-SR04_h
-#define HC-SR04_h
+#ifndef HC-SR04_H
+#define HC-SR04_H
 
 #if ARDUINO >= 100
-  #include "Arduino.h"
+    #include "Arduino.h"
 #else
-  #include "WProgram.h"
+    #include "WProgram.h"
 #endif
 
-class SR04
+class SR04 
 {
-  public:
-    SR04(int TP, int EP);
+private:
+    SR04(int TP,int EP);
     float Get();
 
-  private:
-    int Trig_Pin;
-    int Echo_Pin;
+public:
+    int Trig;
+    int Echo;
     float distance;
-    
+
 };
 
 #endif
