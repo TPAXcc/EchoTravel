@@ -1,3 +1,7 @@
+//2022.6.25 P.M.1.26 Ver.1.1.1-Bate 重构版本 / Refactoring Release
+//TPAXcc Form github.com/TPAXcc/Arduino-Ultrasonic
+//修复了无法运行的 BUG / Fixed BUG to not run
+
 #if ARDUINO >= 100
   #include "Arduino.h"
 #else

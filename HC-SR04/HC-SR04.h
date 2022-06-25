@@ -1,3 +1,7 @@
+//2022.6.25 P.M.1.27 Ver.1.1.1-Bate 重构版本 / Refactoring Release
+//TPAXcc Form github.com/TPAXcc/Arduino-Ultrasonic
+//修复了无法运行的 BUG / Fixed BUG to not run
+
 #ifndef HC-SR04_h
 #define HC-SR04_h
 
