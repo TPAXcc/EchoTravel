@@ -1,4 +1,4 @@
-//2022.6.25 12:29 Ver.0.1.0.alpha 初始版本
+//2022.6.25 12:29 Ver.0.1.0-alpha 初始版本 / Initial Release
 //TPAXcc Form github.com/TPAXcc/Arduino-Ultrasonic
 
 #if ARDUINO >= 100
